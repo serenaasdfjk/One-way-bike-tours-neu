@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#d9d9d9">
+    <meta name="description" content="Find your route, choose your bike, and plan a one-way cycling adventure in Denmark and across Europe.">
+    <title>One way bike tours</title>
+    <link rel="icon" href="assets/brand-line.svg" type="image/svg+xml">
+    <link rel="preload" href="assets/poppins-400.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="assets/poppins-600.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div id="app" class="app"></div>
+    <div id="announcer" class="sr-only" role="status" aria-live="polite"></div>
+    <dialog id="dialog" aria-labelledby="dialog-title">
+      <form method="dialog"><button class="dialog-close" aria-label="Close dialog">×</button></form>
+      <h2 id="dialog-title"></h2>
+      <div id="dialog-content"></div>
+    </dialog>
+    <noscript>This app needs JavaScript. Please enable it in your browser to plan your bike tour.</noscript>
+  </body>
+</html>
